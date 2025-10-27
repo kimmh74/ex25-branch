@@ -45,7 +45,7 @@ public class StudentController_valid {
 		return "student/form_validtest";
 	}
 
-//	등록처리:학생정보 기록후 저장버튼 클릭을 하면, 학생정보를 insert
+//	등록처리:학생정보 기록후 저장버튼 클릭을 하면, 학생정보를 insert..@Valid검증을 해라
 	@PostMapping
 	public String create(@Valid @ModelAttribute Student student, BindingResult bindingResult, Model model) {
 		if (bindingResult.hasErrors()) {

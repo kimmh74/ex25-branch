@@ -2240,3 +2240,263 @@ Caused by: java.lang.ClassNotFoundException: Student
 2025-10-27T16:21:48.310+09:00 DEBUG 14500 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
 2025-10-27T16:21:48.321+09:00 DEBUG 14500 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : ==> Parameters: 
 2025-10-27T16:21:48.333+09:00 DEBUG 14500 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : <==      Total: 8
+2025-10-27T16:23:04.941+09:00  INFO 14500 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T16:23:04.943+09:00  INFO 14500 --- [ex25-branch] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:23:04.946+09:00  INFO 14500 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:23:04.949+09:00  INFO 14500 --- [ex25-branch] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:23:04.951+09:00  INFO 14500 --- [ex25-branch] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:23:05.030+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 14500 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:23:05.030+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:23:05.161+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:23:05.161+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:23:05.162+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:23:05.172+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:23:05.172+09:00  INFO 14500 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 141 ms
+2025-10-27T16:23:05.212+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:23:05.252+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:23:05.258+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:23:05.260+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.247 seconds (process running for 81.796)
+2025-10-27T16:23:05.262+09:00  INFO 14500 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T16:23:06.673+09:00  INFO 14500 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (0 additions, 3 deletions, 6 modifications)
+2025-10-27T16:23:06.674+09:00  INFO 14500 --- [ex25-branch] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:23:06.676+09:00  INFO 14500 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:23:06.746+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 14500 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:23:06.746+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:23:06.862+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:23:06.863+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:23:06.863+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:23:06.873+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:23:06.873+09:00  INFO 14500 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 126 ms
+2025-10-27T16:23:06.911+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:23:06.948+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:23:06.954+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:23:06.956+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.223 seconds (process running for 83.492)
+2025-10-27T16:23:06.956+09:00  INFO 14500 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T16:23:14.451+09:00  INFO 14500 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2025-10-27T16:23:14.452+09:00  INFO 14500 --- [ex25-branch] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:23:14.454+09:00  INFO 14500 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:23:14.490+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 14500 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:23:14.491+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:23:14.609+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:23:14.610+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:23:14.610+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:23:14.620+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:23:14.620+09:00  INFO 14500 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 128 ms
+2025-10-27T16:23:14.658+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:23:14.695+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:23:14.701+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:23:14.703+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.227 seconds (process running for 91.24)
+2025-10-27T16:23:14.704+09:00  INFO 14500 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T16:23:40.487+09:00  INFO 14500 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (1 addition, 0 deletions, 6 modifications)
+2025-10-27T16:23:40.488+09:00  INFO 14500 --- [ex25-branch] [Thread-15] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:23:40.490+09:00  INFO 14500 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:23:40.537+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 14500 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:23:40.538+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:23:40.655+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:23:40.656+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:23:40.656+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:23:40.666+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:23:40.666+09:00  INFO 14500 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 127 ms
+2025-10-27T16:23:40.705+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:23:40.742+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:23:40.748+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:23:40.749+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.226 seconds (process running for 117.286)
+2025-10-27T16:23:40.750+09:00  INFO 14500 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T16:24:13.017+09:00  INFO 14500 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (0 additions, 7 deletions, 0 modifications)
+2025-10-27T16:24:13.018+09:00  INFO 14500 --- [ex25-branch] [Thread-19] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:24:13.020+09:00  INFO 14500 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:24:13.067+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 14500 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:24:13.067+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:24:13.185+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:24:13.185+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:24:13.185+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:24:13.194+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:24:13.194+09:00  INFO 14500 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 126 ms
+2025-10-27T16:24:13.228+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:24:13.263+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:24:13.268+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:24:13.270+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.217 seconds (process running for 149.806)
+2025-10-27T16:24:13.271+09:00  INFO 14500 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T16:24:15.084+09:00  INFO 14500 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (6 additions, 0 deletions, 0 modifications)
+2025-10-27T16:24:15.084+09:00  INFO 14500 --- [ex25-branch] [Thread-23] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:24:15.087+09:00  INFO 14500 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:24:15.129+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 14500 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:24:15.129+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:24:15.234+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:24:15.234+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:24:15.234+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:24:15.245+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:24:15.245+09:00  INFO 14500 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 115 ms
+2025-10-27T16:24:15.276+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:24:15.311+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:24:15.316+09:00  INFO 14500 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:24:15.318+09:00  INFO 14500 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.201 seconds (process running for 151.855)
+2025-10-27T16:24:15.319+09:00  INFO 14500 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T16:24:30.579+09:00  INFO 14500 --- [ex25-branch] [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-27T16:24:30.579+09:00  INFO 14500 --- [ex25-branch] [RMI TCP Connection(21)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:24:30.581+09:00  INFO 14500 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:24:33.364+09:00  INFO 12784 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 12784 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:24:33.365+09:00  INFO 12784 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:24:33.389+09:00  INFO 12784 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27T16:24:33.389+09:00  INFO 12784 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27T16:24:33.941+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:24:33.950+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:24:33.950+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:24:33.979+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:24:33.979+09:00  INFO 12784 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 589 ms
+2025-10-27T16:24:34.202+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:24:34.375+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:24:34.398+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:24:34.403+09:00  INFO 12784 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 1.291 seconds (process running for 1.678)
+2025-10-27T16:24:38.836+09:00  INFO 12784 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (0 additions, 0 deletions, 6 modifications)
+2025-10-27T16:24:38.838+09:00  INFO 12784 --- [ex25-branch] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:24:38.842+09:00  INFO 12784 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:24:38.919+09:00  INFO 12784 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 12784 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:24:38.919+09:00  INFO 12784 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:24:39.055+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:24:39.055+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:24:39.055+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:24:39.067+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:24:39.067+09:00  INFO 12784 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 146 ms
+2025-10-27T16:24:39.107+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:24:39.147+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:24:39.153+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:24:39.156+09:00  INFO 12784 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.254 seconds (process running for 6.432)
+2025-10-27T16:24:39.157+09:00  INFO 12784 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T16:24:45.651+09:00  INFO 12784 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 9 class path changes (3 additions, 0 deletions, 6 modifications)
+2025-10-27T16:24:45.652+09:00  INFO 12784 --- [ex25-branch] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:24:45.654+09:00  INFO 12784 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:24:45.718+09:00  INFO 12784 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 12784 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:24:45.719+09:00  INFO 12784 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:24:45.838+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:24:45.839+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:24:45.839+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:24:45.848+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:24:45.848+09:00  INFO 12784 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 128 ms
+2025-10-27T16:24:45.883+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:24:45.918+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:24:45.924+09:00  INFO 12784 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:24:45.926+09:00  INFO 12784 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.222 seconds (process running for 13.202)
+2025-10-27T16:24:45.927+09:00  INFO 12784 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T16:24:47.379+09:00  INFO 12784 --- [ex25-branch] [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-27T16:24:47.379+09:00  INFO 12784 --- [ex25-branch] [RMI TCP Connection(2)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:24:47.381+09:00  INFO 12784 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:24:48.620+09:00  INFO 9672 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 9672 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:24:48.621+09:00  INFO 9672 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:24:48.644+09:00  INFO 9672 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27T16:24:48.644+09:00  INFO 9672 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27T16:24:49.198+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:24:49.207+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:24:49.207+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:24:49.233+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:24:49.233+09:00  INFO 9672 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 588 ms
+2025-10-27T16:24:49.467+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:24:49.637+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:24:49.660+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:24:49.665+09:00  INFO 9672 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 1.294 seconds (process running for 1.695)
+2025-10-27T16:24:51.751+09:00  INFO 9672 --- [ex25-branch] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:24:51.752+09:00  INFO 9672 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:24:51.752+09:00  INFO 9672 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-27T16:25:02.535+09:00  INFO 9672 --- [ex25-branch] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:25:02.592+09:00  INFO 9672 --- [ex25-branch] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@75e7955
+2025-10-27T16:25:02.593+09:00  INFO 9672 --- [ex25-branch] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:25:02.607+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T16:25:02.618+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T16:25:02.630+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : <==      Total: 8
+2025-10-27T16:25:10.146+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-3] c.k.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T16:25:10.147+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-3] c.k.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T16:25:10.148+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-3] c.k.e.mapper.StudentMapper.findAll       : <==      Total: 8
+2025-10-27T16:27:19.545+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-9] c.k.e.mapper.StudentMapper.insert        : ==>  Preparing: INSERT INTO student(NAME, email, age) VALUES (?, ?, ?)
+2025-10-27T16:27:19.547+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-9] c.k.e.mapper.StudentMapper.insert        : ==> Parameters: dada(String), afdafdaf@mai.com(String), 22(Integer)
+2025-10-27T16:27:19.548+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-9] c.k.e.mapper.StudentMapper.insert        : <==    Updates: 1
+2025-10-27T16:27:19.555+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-10] c.k.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T16:27:19.556+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-10] c.k.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T16:27:19.557+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-10] c.k.e.mapper.StudentMapper.findAll       : <==      Total: 9
+2025-10-27T16:28:24.008+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-3] c.k.e.mapper.StudentMapper.findById      : ==>  Preparing: SELECT * FROM student WHERE id = ?
+2025-10-27T16:28:24.010+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-3] c.k.e.mapper.StudentMapper.findById      : ==> Parameters: 18(Long)
+2025-10-27T16:28:24.010+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-3] c.k.e.mapper.StudentMapper.findById      : <==      Total: 1
+2025-10-27T16:28:26.714+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-4] c.k.e.mapper.StudentMapper.update        : ==>  Preparing: UPDATE student SET NAME = ?, email = ?, age = ? WHERE id = ?
+2025-10-27T16:28:26.715+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-4] c.k.e.mapper.StudentMapper.update        : ==> Parameters: dada(String), afdafdaf@mai.com(String), 2(Integer), 18(Long)
+2025-10-27T16:28:26.715+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-4] c.k.e.mapper.StudentMapper.update        : <==    Updates: 1
+2025-10-27T16:28:26.719+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-5] c.k.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T16:28:26.719+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-5] c.k.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T16:28:26.720+09:00 DEBUG 9672 --- [ex25-branch] [http-nio-8080-exec-5] c.k.e.mapper.StudentMapper.findAll       : <==      Total: 9
+2025-10-27T16:32:26.894+09:00  INFO 9672 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T16:32:26.896+09:00  INFO 9672 --- [ex25-branch] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:32:26.899+09:00  INFO 9672 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:32:26.901+09:00  INFO 9672 --- [ex25-branch] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-27T16:32:26.903+09:00  INFO 9672 --- [ex25-branch] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-27T16:32:26.977+09:00  INFO 9672 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 9672 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:32:26.977+09:00  INFO 9672 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:32:27.122+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:32:27.123+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:32:27.123+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:32:27.137+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:32:27.137+09:00  INFO 9672 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 158 ms
+2025-10-27T16:32:27.185+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:32:27.239+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:32:27.245+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:32:27.247+09:00  INFO 9672 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.288 seconds (process running for 459.277)
+2025-10-27T16:32:27.248+09:00  INFO 9672 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T16:35:42.906+09:00  INFO 9672 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-27T16:35:42.907+09:00  INFO 9672 --- [ex25-branch] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:35:42.909+09:00  INFO 9672 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:35:42.947+09:00  INFO 9672 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 9672 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:35:42.947+09:00  INFO 9672 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:35:43.073+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:35:43.074+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:35:43.074+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:35:43.084+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:35:43.084+09:00  INFO 9672 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 135 ms
+2025-10-27T16:35:43.123+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:35:43.163+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:35:43.169+09:00  INFO 9672 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:35:43.171+09:00  INFO 9672 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.239 seconds (process running for 655.201)
+2025-10-27T16:35:43.172+09:00  INFO 9672 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-27T16:37:26.150+09:00  INFO 9672 --- [ex25-branch] [RMI TCP Connection(28)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-27T16:37:26.151+09:00  INFO 9672 --- [ex25-branch] [RMI TCP Connection(28)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:37:26.153+09:00  INFO 9672 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:37:27.395+09:00  INFO 11280 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 11280 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:37:27.396+09:00  INFO 11280 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:37:27.420+09:00  INFO 11280 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27T16:37:27.420+09:00  INFO 11280 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27T16:37:27.982+09:00  INFO 11280 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:37:27.991+09:00  INFO 11280 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:37:27.991+09:00  INFO 11280 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:37:28.017+09:00  INFO 11280 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:37:28.017+09:00  INFO 11280 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 596 ms
+2025-10-27T16:37:28.257+09:00  INFO 11280 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:37:28.427+09:00  INFO 11280 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:37:28.452+09:00  INFO 11280 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:37:28.458+09:00  INFO 11280 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 1.307 seconds (process running for 1.709)
+2025-10-27T16:37:30.020+09:00  INFO 11280 --- [ex25-branch] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:37:30.020+09:00  INFO 11280 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:37:30.021+09:00  INFO 11280 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:39:24.357+09:00  INFO 11280 --- [ex25-branch] [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-10-27T16:39:24.359+09:00  INFO 11280 --- [ex25-branch] [RMI TCP Connection(10)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-27T16:39:24.362+09:00  INFO 11280 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-27T16:39:25.601+09:00  INFO 11996 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 11996 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-27T16:39:25.603+09:00  INFO 11996 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-27T16:39:25.627+09:00  INFO 11996 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-27T16:39:25.627+09:00  INFO 11996 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-27T16:39:26.182+09:00  INFO 11996 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-27T16:39:26.190+09:00  INFO 11996 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-27T16:39:26.190+09:00  INFO 11996 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-27T16:39:26.215+09:00  INFO 11996 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-27T16:39:26.215+09:00  INFO 11996 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 588 ms
+2025-10-27T16:39:26.451+09:00  INFO 11996 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-27T16:39:26.622+09:00  INFO 11996 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-27T16:39:26.645+09:00  INFO 11996 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-27T16:39:26.650+09:00  INFO 11996 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 1.295 seconds (process running for 1.695)
+2025-10-27T16:39:27.771+09:00  INFO 11996 --- [ex25-branch] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-27T16:39:27.771+09:00  INFO 11996 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-27T16:39:27.772+09:00  INFO 11996 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-27T16:39:34.060+09:00  INFO 11996 --- [ex25-branch] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-27T16:39:34.121+09:00  INFO 11996 --- [ex25-branch] [http-nio-8080-exec-2] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@7d684104
+2025-10-27T16:39:34.122+09:00  INFO 11996 --- [ex25-branch] [http-nio-8080-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-27T16:39:34.137+09:00 DEBUG 11996 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T16:39:34.148+09:00 DEBUG 11996 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T16:39:34.161+09:00 DEBUG 11996 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : <==      Total: 9
+2025-10-27T16:39:48.480+09:00 DEBUG 11996 --- [ex25-branch] [http-nio-8080-exec-4] c.k.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-27T16:39:48.480+09:00 DEBUG 11996 --- [ex25-branch] [http-nio-8080-exec-4] c.k.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-27T16:39:48.481+09:00 DEBUG 11996 --- [ex25-branch] [http-nio-8080-exec-4] c.k.e.mapper.StudentMapper.findAll       : <==      Total: 9
