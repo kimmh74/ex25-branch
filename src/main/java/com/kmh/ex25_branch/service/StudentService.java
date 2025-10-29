@@ -20,11 +20,7 @@ public class StudentService {
 	public List<Student> getAllStudents() {
 
 		return studentMapper.findAll();
-//		List<Student> studens = new ArrayList<>();
-//		studens.add(new Student() {{setId(1L); setName("홍길동");}});
-//		studens.add(new Student() {{setId(2L); setName("이몽룡");}});
-//		studens.add(new Student() {{setId(3L); setName("성춘향");}});
-//		return studens;
+
 	}
 
 	public Student getStudent(Long id) {
