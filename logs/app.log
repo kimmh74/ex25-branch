@@ -2526,3 +2526,6 @@ Caused by: java.lang.ClassNotFoundException: ProceedingJoinPoint
 2025-10-29T11:44:42.199+09:00  INFO 5556 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
 2025-10-29T11:44:42.201+09:00  INFO 5556 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 0.473 seconds (process running for 100.929)
 2025-10-29T11:44:42.202+09:00  INFO 5556 --- [ex25-branch] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-29T11:45:41.643+09:00  INFO 5556 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 14 class path changes (0 additions, 13 deletions, 1 modification)
+2025-10-29T11:45:41.644+09:00  INFO 5556 --- [ex25-branch] [Thread-11] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-29T11:45:41.645+09:00  INFO 5556 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
