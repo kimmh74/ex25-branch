@@ -1,3 +1,4 @@
+
 package com.kmh.ex25_branch.controller;
 
 import org.springframework.stereotype.Controller;
@@ -22,29 +23,29 @@ public class StudentController_valid {
 
 	private final StudentService studentService;
 
-//	List: 전체 학생 목록
+//	list화면: 전체 학생 목록
 	@GetMapping
 	public String list(Model model) {
-		model.addAttribute("student", studentService.getAllStudents());
+		model.addAttribute("students", studentService.getAllStudents());
 
 		return "student/list_validtest";
 	}
 
-//	등록폼:form 화면: 새로운 학생 정보를 입력하기위한 빈화면.
+//	등록폼:form화면: 새로운 학생 정보를 입력하기위한 빈화면.
 	@GetMapping("/new")
 	public String createForm(Model model) {
 		model.addAttribute("student", new Student());
 		return "student/form_validtest";
 	}
 
-//	***** 등록폼ValidTest:form 화면: 새로운 학생 정보를 입력하기위한 빈화면.
-	@GetMapping("/new/vaild")
+//	***** 등록폼ValidTest:form화면: 새로운 학생 정보를 입력하기위한 빈화면.
+	@GetMapping("/new/valid")
 	public String createFormValid(Model model) {
 		model.addAttribute("student", new Student());
 		return "student/form_validtest";
 	}
 
-//	등록처리:학생정보 기록후 저장버튼 클릭을 하면, 학생정보를 insert
+//	등록처리:학생정보 기록후 저장버튼 클릭을 하면, 학생정보를 insert..@Valid검증을 해라
 	@PostMapping
 	public String create(@Valid @ModelAttribute Student student, BindingResult bindingResult, Model model) {
 		if (bindingResult.hasErrors()) {
@@ -64,6 +65,7 @@ public class StudentController_valid {
 		return "student/form_validtest";
 	}
 
+//	수정처리:수정처리가 되면 안되는뎅...ㅜㅜㅜ
 	@PostMapping("/{id}")
 	public String update(@PathVariable Long id, @Valid @ModelAttribute Student student, BindingResult bindingResult) {
 		if (bindingResult.hasErrors()) {
