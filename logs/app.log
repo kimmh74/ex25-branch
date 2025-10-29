@@ -819,3 +819,30 @@ Caused by: org.xml.sax.SAXParseException: 요소 유형 "mapper"과(와) 연관�
 2025-10-27T14:32:57.526+09:00 DEBUG 12960 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
 2025-10-27T14:32:57.537+09:00 DEBUG 12960 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : ==> Parameters: 
 2025-10-27T14:32:57.549+09:00 DEBUG 12960 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : <==      Total: 8
+2025-10-29T14:31:40.432+09:00  INFO 11464 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Starting Ex25BranchApplication using Java 21.0.8 with PID 11464 (D:\00.과제링크\day10_1027\ex25-branch\bin\main started by YONSAI in D:\00.과제링크\day10_1027\ex25-branch)
+2025-10-29T14:31:40.433+09:00  INFO 11464 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : No active profile set, falling back to 1 default profile: "default"
+2025-10-29T14:31:40.457+09:00  INFO 11464 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-29T14:31:40.458+09:00  INFO 11464 --- [ex25-branch] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-29T14:31:41.030+09:00  INFO 11464 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-10-29T14:31:41.038+09:00  INFO 11464 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-29T14:31:41.039+09:00  INFO 11464 --- [ex25-branch] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2025-10-29T14:31:41.065+09:00  INFO 11464 --- [ex25-branch] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-10-29T14:31:41.065+09:00  INFO 11464 --- [ex25-branch] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 607 ms
+2025-10-29T14:31:41.306+09:00  INFO 11464 --- [ex25-branch] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-10-29T14:31:41.478+09:00  INFO 11464 --- [ex25-branch] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-29T14:31:41.502+09:00  INFO 11464 --- [ex25-branch] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-10-29T14:31:41.507+09:00  INFO 11464 --- [ex25-branch] [restartedMain] c.kmh.ex25_branch.Ex25BranchApplication  : Started Ex25BranchApplication in 1.323 seconds (process running for 1.722)
+2025-10-29T14:31:45.390+09:00  INFO 11464 --- [ex25-branch] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-29T14:31:45.390+09:00  INFO 11464 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-29T14:31:45.391+09:00  INFO 11464 --- [ex25-branch] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-29T14:31:48.108+09:00  INFO 11464 --- [ex25-branch] [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-29T14:31:48.170+09:00  INFO 11464 --- [ex25-branch] [http-nio-8080-exec-3] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.mariadb.jdbc.Connection@3ad23816
+2025-10-29T14:31:48.172+09:00  INFO 11464 --- [ex25-branch] [http-nio-8080-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-29T14:31:48.187+09:00 DEBUG 11464 --- [ex25-branch] [http-nio-8080-exec-3] c.k.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-29T14:31:48.198+09:00 DEBUG 11464 --- [ex25-branch] [http-nio-8080-exec-3] c.k.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-29T14:31:48.210+09:00 DEBUG 11464 --- [ex25-branch] [http-nio-8080-exec-3] c.k.e.mapper.StudentMapper.findAll       : <==      Total: 10
+2025-10-29T14:32:23.441+09:00  INFO 11464 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-29T14:32:23.443+09:00  INFO 11464 --- [ex25-branch] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-29T14:32:23.445+09:00  INFO 11464 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-29T14:32:23.448+09:00  INFO 11464 --- [ex25-branch] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-29T14:32:23.450+09:00  INFO 11464 --- [ex25-branch] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
