@@ -14,7 +14,7 @@ public class ExceptionAspect {
 
 	@AfterThrowing(pointcut = "execution(* com.kmh.ex25_branch.service.*.*(..))", throwing = "excep")
 	public void logError(JoinPoint jp, Exception excep) {
-		log.info("ererererer 메서중 오류 발생: {} erer \n ererer {} ererer", jp.getSignature(), excep.getMessage());
+		log.info("ererererer 실행중 오류 발생: {} erer \n ererer {} ererer", jp.getSignature(), excep.getMessage());
 
 	}
 }
