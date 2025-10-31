@@ -16,11 +16,11 @@
  
   <insert id="insert" parameterType="Student" 
   useGeneratedKeys="true" keyProperty="id">
-	  	INSERT INTO student(NAME, email, age) 
-	  	VALUES (#{name}, #{email}, #{age})
+	  	INSERT INTO student(name, email, age) 
+	  	VALUES(#{name}, #{email}, #{age})
   </insert>
-  
-  <update id="update" parameterType="Student">
+  <!-- useGeneratedKeys="true" keyProperty="id"는AUTO_INCREMENT PRIMARY KEY일때 추가 -->
+ <update id="update" parameterType="Student">
 	  	UPDATE student
 		SET NAME = #{name}, email = #{email}, age = #{age}
 		WHERE id = #{id}
