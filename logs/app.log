@@ -97,3 +97,11 @@
 2025-10-31T09:03:56.657+09:00  INFO 8088 --- [ex25-branch] [main] c.k.e.Ex25BranchApplicationTests         : Started Ex25BranchApplicationTests in 0.617 seconds (process running for 2.661)
 2025-10-31T09:03:56.672+09:00  INFO 8088 --- [ex25-branch] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-10-31T09:03:56.674+09:00  INFO 8088 --- [ex25-branch] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-31T09:07:13.254+09:00 DEBUG 11072 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : ==>  Preparing: SELECT * FROM student ORDER BY id DESC
+2025-10-31T09:07:13.254+09:00 DEBUG 11072 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : ==> Parameters: 
+2025-10-31T09:07:13.256+09:00 DEBUG 11072 --- [ex25-branch] [http-nio-8080-exec-2] c.k.e.mapper.StudentMapper.findAll       : <==      Total: 10
+2025-10-31T09:07:19.354+09:00  INFO 11072 --- [ex25-branch] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 11 class path changes (7 additions, 0 deletions, 4 modifications)
+2025-10-31T09:07:19.356+09:00  INFO 11072 --- [ex25-branch] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-31T09:07:19.359+09:00  INFO 11072 --- [ex25-branch] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-31T09:07:19.361+09:00  INFO 11072 --- [ex25-branch] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-31T09:07:19.363+09:00  INFO 11072 --- [ex25-branch] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
